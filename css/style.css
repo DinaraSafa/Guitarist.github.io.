@@ -1,0 +1,1390 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../project -2/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../project -2/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../project -2/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../project -2/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../project -2/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../project -2/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../project -2/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../project -2/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../project -2/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../project -2/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../project -2/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../project -2/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../project -2/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../project -2/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../project -2/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../project -2/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../project -2/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../project -2/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../project -2/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../project -2/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../project -2/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../project -2/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../project -2/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../project -2/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../project -2/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../project -2/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../project -2/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../project -2/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../project -2/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../project -2/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../project -2/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../project -2/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../project -2/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../project -2/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../project -2/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../project -2/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../project -2/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../project -2/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../project -2/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../project -2/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../project -2/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../project -2/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../project -2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrats";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrats";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 21, ../project -2/src/sass/style.sass */
+html {
+  font-family: "Montserrats";
+  font-weight: regular;
+}
+
+/* line 29, ../project -2/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 33, ../project -2/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F4F9EB;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 39, ../project -2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 45, ../project -2/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 48, ../project -2/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 52, ../project -2/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 99px;
+  right: 34px;
+}
+
+/* line 56, ../project -2/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 581px;
+}
+
+/* line 60, ../project -2/src/sass/style.sass */
+.main-section__third-elipse {
+  position: absolute;
+  top: 451px;
+  left: 104px;
+  background: #F4F9EB;
+  border-radius: 150px;
+  width: 42px;
+  height: 42px;
+  z-index: 6;
+}
+
+/* line 71, ../project -2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 74, ../project -2/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 78, ../project -2/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 80, ../project -2/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 83, ../project -2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 85, ../project -2/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 88, ../project -2/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 137px;
+  left: -59px;
+  width: 601px;
+  height: 221px;
+  background: #5590E5;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 99, ../project -2/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  top: 160px;
+  left: -30px;
+  width: 630px;
+  height: 220px;
+  background: #ED7446;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 110, ../project -2/src/sass/style.sass */
+.left-wrapper__rectangle-green {
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  width: 630px;
+  height: 220px;
+  background: #B4DE3B;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 122, ../project -2/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 128, ../project -2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 131, ../project -2/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 133, ../project -2/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin: 10px 0px 20px 0px;
+}
+
+/* line 136, ../project -2/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+}
+
+/* line 140, ../project -2/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid yellow;
+  background: linear-gradient(124.83deg, rgba(187, 243, 4, 0.5) 14.94%, rgba(0, 104, 255, 0.5) 50.33%, rgba(160, 21, 47, 0.5) 84.27%);
+  border-radius: 100px;
+  margin-right: 16px;
+}
+
+/* line 150, ../project -2/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 152, ../project -2/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 155, ../project -2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* line 161, ../project -2/src/sass/style.sass */
+.title__hr {
+  width: 398px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border: 1px solid black;
+}
+
+/* line 169, ../project -2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 171, ../project -2/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #ED7446;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 182, ../project -2/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 185, ../project -2/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 187, ../project -2/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 190, ../project -2/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(124.83deg, rgba(187, 243, 4, 0.5) 14.94%, rgba(0, 104, 255, 0.5) 50.33%, rgba(160, 21, 47, 0.5) 84.27%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 198, ../project -2/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 201, ../project -2/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F4F9EB;
+  border-radius: 150px;
+}
+
+/* line 206, ../project -2/src/sass/style.sass */
+.elipse__subtract_white {
+  background: #ffff;
+}
+
+/* line 208, ../project -2/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 195px;
+  height: 188px;
+}
+
+/* line 216, ../project -2/src/sass/style.sass */
+.second-section {
+  overflow: hidden;
+  min-height: 700px;
+}
+
+/* line 219, ../project -2/src/sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 222, ../project -2/src/sass/style.sass */
+.second-section__title {
+  display: block;
+  margin-bottom: 40px;
+}
+
+/* line 225, ../project -2/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* line 229, ../project -2/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+}
+
+/* line 231, ../project -2/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 233, ../project -2/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 237, ../project -2/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 239, ../project -2/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 353px;
+  left: -105px;
+  z-index: -1;
+}
+
+/* line 244, ../project -2/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 54px;
+  left: 458px;
+  z-index: -1;
+}
+
+/* line 249, ../project -2/src/sass/style.sass */
+.second-section__third-elipse {
+  position: absolute;
+  top: 276px;
+  left: 1044px;
+  z-index: -1;
+}
+
+/* line 254, ../project -2/src/sass/style.sass */
+.second-section__fourth-elipse {
+  position: absolute;
+  top: 167px;
+  left: 314px;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 261, ../project -2/src/sass/style.sass */
+.second-section__fifth-elipse {
+  position: absolute;
+  top: 167px;
+  left: 707px;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 268, ../project -2/src/sass/style.sass */
+.second-section__sixth-elipse {
+  position: absolute;
+  top: 167px;
+  left: 1099px;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 276, ../project -2/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 362px;
+  height: 362px;
+  background: #B4DE3B;
+  border-radius: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 284, ../project -2/src/sass/style.sass */
+.cards-item__img {
+  height: 362px;
+}
+
+/* line 286, ../project -2/src/sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 148px;
+  right: -52px;
+  font-weight: bold;
+}
+
+/* line 296, ../project -2/src/sass/style.sass */
+.cards-item_orange {
+  background: #ED7446;
+}
+
+/* line 298, ../project -2/src/sass/style.sass */
+.cards-item_blue {
+  background: #5590E5;
+}
+
+/* line 303, ../project -2/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 306, ../project -2/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 309, ../project -2/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 311, ../project -2/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 317, ../project -2/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F4F9EB;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 323, ../project -2/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 330, ../project -2/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 332, ../project -2/src/sass/style.sass */
+.third-section__right-title {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 335, ../project -2/src/sass/style.sass */
+.third-section__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* line 338, ../project -2/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 343, ../project -2/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 19px;
+  z-index: -1;
+}
+
+/* line 348, ../project -2/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+  z-index: -1;
+}
+
+/* line 360, ../project -2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 364, ../project -2/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 369, ../project -2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+/* line 373, ../project -2/src/sass/style.sass */
+.footer__icons-box {
+  margin-top: 32px;
+}
+
+@media (max-width: 1199px) {
+  /* line 382, ../project -2/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 385, ../project -2/src/sass/style.sass */
+  .title__hr {
+    width: 348px;
+  }
+  /* line 388, ../project -2/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 390, ../project -2/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 95px;
+    right: -17px;
+  }
+  /* line 393, ../project -2/src/sass/style.sass */
+  .main-section__second-elipse {
+    right: -102px;
+    top: 553px;
+  }
+  /* line 396, ../project -2/src/sass/style.sass */
+  .main-section__third-elipse {
+    top: 422px;
+    left: 96px;
+    width: 33px;
+    height: 33px;
+  }
+  /* line 402, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper img {
+    width: 750px;
+  }
+  /* line 404, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-blue {
+    width: 542px;
+    height: 203px;
+  }
+  /* line 407, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-orange {
+    width: 569px;
+    height: 206px;
+  }
+  /* line 410, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-green {
+    width: 572px;
+    height: 204px;
+  }
+  /* line 413, ../project -2/src/sass/style.sass */
+  .main-section .right-wrapper {
+    top: 87px;
+    right: 18px;
+  }
+  /* line 416, ../project -2/src/sass/style.sass */
+  .second-section {
+    min-height: 558px;
+  }
+  /* line 418, ../project -2/src/sass/style.sass */
+  .second-section__title {
+    font-size: 64px;
+  }
+  /* line 420, ../project -2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 288px;
+    left: -147px;
+  }
+  /* line 423, ../project -2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 29px;
+    left: 472px;
+  }
+  /* line 426, ../project -2/src/sass/style.sass */
+  .second-section__third-elipse {
+    top: 307px;
+    left: 818px;
+  }
+  /* line 429, ../project -2/src/sass/style.sass */
+  .second-section__fourth-elipse {
+    top: 143px;
+    left: 243px;
+  }
+  /* line 432, ../project -2/src/sass/style.sass */
+  .second-section__fifth-elipse {
+    top: 143px;
+    left: 560px;
+  }
+  /* line 435, ../project -2/src/sass/style.sass */
+  .second-section__sixth-elipse {
+    top: 143px;
+    left: 879px;
+  }
+  /* line 438, ../project -2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 441, ../project -2/src/sass/style.sass */
+  .cards-item {
+    width: 289px;
+    height: 299px;
+  }
+  /* line 444, ../project -2/src/sass/style.sass */
+  .cards-item__img {
+    height: 286px;
+  }
+  /* line 446, ../project -2/src/sass/style.sass */
+  .cards-item__text {
+    width: 288px;
+    font-size: 30px;
+    top: 128px;
+    right: -54px;
+  }
+  /* line 452, ../project -2/src/sass/style.sass */
+  .icons-item__img {
+    width: 61px;
+  }
+  /* line 454, ../project -2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 18px;
+  }
+  /* line 456, ../project -2/src/sass/style.sass */
+  .icons-item span {
+    font-size: 35px;
+  }
+  /* line 458, ../project -2/src/sass/style.sass */
+  .third-section {
+    min-height: 560px;
+  }
+  /* line 460, ../project -2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+    padding-top: 46px;
+  }
+  /* line 464, ../project -2/src/sass/style.sass */
+  .footer__img {
+    left: -193px;
+  }
+  /* line 466, ../project -2/src/sass/style.sass */
+  .title {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 471, ../project -2/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 474, ../project -2/src/sass/style.sass */
+  .main-section {
+    min-height: 530px;
+  }
+  /* line 476, ../project -2/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 59px;
+    right: -99px;
+  }
+  /* line 479, ../project -2/src/sass/style.sass */
+  .main-section__second-elipse {
+    right: -102px;
+    top: 390px;
+  }
+  /* line 482, ../project -2/src/sass/style.sass */
+  .main-section__third-elipse {
+    top: 340px;
+    left: -7px;
+    width: 33px;
+    height: 33px;
+  }
+  /* line 487, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper {
+    position: relative;
+  }
+  /* line 489, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper img {
+    width: 550px;
+  }
+  /* line 491, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-blue {
+    top: 125px;
+    left: -129px;
+    width: 431px;
+    height: 147px;
+  }
+  /* line 496, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-orange {
+    top: 143px;
+    left: -102px;
+    width: 431px;
+    height: 147px;
+  }
+  /* line 501, ../project -2/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-green {
+    top: 164px;
+    left: -77px;
+    width: 431px;
+    height: 147px;
+  }
+  /* line 506, ../project -2/src/sass/style.sass */
+  .main-section .right-wrapper {
+    width: 365px;
+    top: 86px;
+    right: -41px;
+  }
+  /* line 511, ../project -2/src/sass/style.sass */
+  .main-section .buttons__main-btn {
+    font-size: 16px;
+  }
+  /* line 514, ../project -2/src/sass/style.sass */
+  .second-section {
+    min-height: 456px;
+  }
+  /* line 516, ../project -2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 177px;
+    left: -105px;
+  }
+  /* line 519, ../project -2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 54px;
+    left: 293px;
+  }
+  /* line 522, ../project -2/src/sass/style.sass */
+  .second-section__third-elipse {
+    top: 209px;
+    left: 617px;
+  }
+  /* line 525, ../project -2/src/sass/style.sass */
+  .second-section__fourth-elipse {
+    top: 142px;
+    left: 175px;
+    width: 30px;
+    height: 30px;
+  }
+  /* line 530, ../project -2/src/sass/style.sass */
+  .second-section__fifth-elipse {
+    top: 142px;
+    left: 426px;
+    width: 30px;
+    height: 30px;
+  }
+  /* line 535, ../project -2/src/sass/style.sass */
+  .second-section__sixth-elipse {
+    top: 142px;
+    left: 677px;
+    width: 30px;
+    height: 30px;
+  }
+  /* line 541, ../project -2/src/sass/style.sass */
+  .cards-item {
+    width: 362px;
+    height: 218px;
+  }
+  /* line 544, ../project -2/src/sass/style.sass */
+  .cards-item__img {
+    height: 214px;
+  }
+  /* line 546, ../project -2/src/sass/style.sass */
+  .cards-item__text {
+    width: 249px;
+    font-size: 26px;
+    top: 86px;
+    right: -52px;
+  }
+  /* line 553, ../project -2/src/sass/style.sass */
+  .icons-item__img {
+    width: 50px;
+  }
+  /* line 555, ../project -2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 557, ../project -2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  /* line 560, ../project -2/src/sass/style.sass */
+  .third-section {
+    min-height: 496px;
+  }
+  /* line 562, ../project -2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+    padding-top: 46px;
+  }
+  /* line 565, ../project -2/src/sass/style.sass */
+  .third-section__text {
+    font-size: 15px;
+  }
+  /* line 567, ../project -2/src/sass/style.sass */
+  .third-section__left-title {
+    top: -9px;
+    left: -89px;
+    font-size: 55px;
+  }
+  /* line 571, ../project -2/src/sass/style.sass */
+  .third-section__first-elipse {
+    top: 82px;
+    left: 34px;
+  }
+  /* line 574, ../project -2/src/sass/style.sass */
+  .third-section__figure {
+    top: 180px;
+    left: -76px;
+  }
+  /* line 577, ../project -2/src/sass/style.sass */
+  .third-section__second-elipse {
+    right: -120px;
+    top: -147px;
+  }
+  /* line 581, ../project -2/src/sass/style.sass */
+  .footer__img {
+    left: -301px;
+  }
+  /* line 583, ../project -2/src/sass/style.sass */
+  .title {
+    font-size: 47px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 588, ../project -2/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 590, ../project -2/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(124.83deg, #d3e1a7 14.94%, #d7e5f9, #f5c8d0 84.27%);
+    z-index: 20;
+    transition: 1s all;
+  }
+  /* line 601, ../project -2/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 606, ../project -2/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 610, ../project -2/src/sass/style.sass */
+  .hamburger {
+    position: fixed;
+    width: 30px;
+    height: 14px;
+    top: 40px;
+    right: 30px;
+    z-index: 30;
+  }
+  /* line 617, ../project -2/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 624, ../project -2/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 627, ../project -2/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 629, ../project -2/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 631, ../project -2/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 633, ../project -2/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 635, ../project -2/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 641, ../project -2/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
